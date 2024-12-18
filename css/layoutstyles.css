@@ -1,0 +1,72 @@
+/* General setup */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white; /* Ensures a consistent background */
+}
+
+/* Header */
+.common.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    background-color: white;
+    z-index: 2;
+    border-bottom: solid 1px grey;
+    padding: 10px;
+}
+
+/* Left menu */
+.common.leftmenu {
+    position: fixed;
+    top: 100px; /* Adjusted to align with the header */
+    left: 0;
+    width: 150px; /* Adjust width as needed */
+    bottom: 0; /* Extends to the bottom of the viewport */
+    overflow-y: auto; /* Allows scrolling if content overflows */
+    border-right: solid 1px grey;
+    background-color: white;
+}
+
+/* Right menu */
+.common.rightmenu {
+    position: fixed;
+    top: 100px; /* Aligns with the header */
+    right: 0;
+    width: 150px; /* Adjust width as needed */
+    bottom: 0; /* Extends to the bottom of the viewport */
+    overflow-y: auto; /* Allows scrolling if content overflows */
+    border-left: solid 1px grey;
+    background-color: white;
+}
+
+/* Main body */
+.common.mainbody {
+    margin-top: 100px; /* Leaves space for the header */
+    margin-left: 160px; /* Adjusts to the width of the left menu */
+    margin-right: 160px; /* Adjusts to the width of the right menu */
+    padding: 20px;
+    min-height: calc(100vh - 125px); /* Adapts to full viewport height minus header and footer */
+    background-color: white;
+}
+
+/* Footer */
+.common.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 25px;
+    background-color: white;
+    border-top: solid 1px grey;
+    text-align: center;
+    line-height: 25px; /* Centers the text vertically */
+}
+
+
+.subheader {
+    float: right;
+}
