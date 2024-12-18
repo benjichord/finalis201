@@ -88,18 +88,7 @@ body {
     text-align: center; /* Center-aligns the header (optional) */
     margin-top: 20px; /* Adds some space above the header */
 } 
-/* Header */
-.common.header {o
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 100px;
-    background-color: white;
-    z-index: 2;
-    border-bottom: solid 1px grey;
-    padding: 10px;
-}
+
 
 /* Left menu */
 .common.leftmenu {
